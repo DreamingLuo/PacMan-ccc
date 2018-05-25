@@ -1,0 +1,37 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "PacManRight",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.11666666666666667,
+  "sample": 60,
+  "speed": 0.2,
+  "wrapMode": "2",
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "053bc256-9650-480d-aefd-7521c33e0748"
+            }
+          },
+          {
+            "frame": 0.05,
+            "value": {
+              "__uuid__": "9f654a76-66ce-414f-8628-1eba5ead2dea"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "6303d648-c738-4bf0-82d1-22844d916284"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

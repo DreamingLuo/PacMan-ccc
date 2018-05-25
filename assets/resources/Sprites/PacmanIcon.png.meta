@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "2db3c01e-9ef0-4a8b-aa8c-617efa09c102",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "PacmanIcon": {
+      "ver": "1.0.3",
+      "uuid": "7a86bbaa-99c1-40c3-8faa-1c8ba5620923",
+      "rawTextureUuid": "2db3c01e-9ef0-4a8b-aa8c-617efa09c102",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -3,
+      "offsetY": 0,
+      "trimX": 8,
+      "trimY": 4,
+      "width": 178,
+      "height": 192,
+      "rawWidth": 200,
+      "rawHeight": 200,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
