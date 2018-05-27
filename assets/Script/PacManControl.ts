@@ -27,6 +27,12 @@ export default class NewClass extends cc.Component {
     RigidBody: cc.RigidBody;
     _level: number = 0;
     _vertical: number = 0;
+    //豆子
+    @property(cc.Node)
+    bean:cc.Node = null;
+    //gameover
+    @property(cc.Node)
+    gameover:cc.Node = null;
 
     // LIFE-CYCLE CALLBACKS:
 
@@ -121,8 +127,28 @@ export default class NewClass extends cc.Component {
         });
     }
 
+    onBeginContact(contact, selfCollider, otherCollider) 
+    {
+        if(otherCollider.tag == 1)
+        {
+            console.log("吃到豆子了")
+            otherCollider.node.destroy();
+        }
+        else if(otherCollider.tag == 2)
+        {
+            console.log("吃到敌人了");
+            this.gameover.active = true;
+            cc.game.end();
+        }
+      console.log(otherCollider);
+    }
+
     onCollisionEnter() {
        console.log("碰撞了");
+    }
+
+    onCollisionExit (other, self) {
+        console.log('on collision exit');
     }
 
     update(dt) {
